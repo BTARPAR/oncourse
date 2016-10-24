@@ -15,8 +15,11 @@
   <td>${course.code}</td>
   <td>${course.name}</td>
   <td style="text-align: center;">${course.units}</td>
+  <td><a href="edit.html?id=${course.id}">Edit</a></td>
+  <td><a href="delete.html?id=${course.id}">Edit</a></td>
 </tr>
 </c:forEach>
+<a href="add.html">Add New Course</a>
 </table>
 </body>
 </html>
